@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strictPropertyInitialization": false,
+    "plugins": [
+      {
+        "name": "typescript-deno-plugin",
+        "enable": true, // default is `true`
+        "importmap": "import_map.json"
+      }
+    ]
+  }
+}
